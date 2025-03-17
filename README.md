@@ -89,7 +89,7 @@ The final optimized model achieved an accuracy of **75.54%**, surpassing the tar
 
 ### Further Optimization Recommendations:
 - Implement additional **feature engineering** or data transformations.
-- Experiment with **alternative models** (e.g., Random Forest Classifier) for comparison.
+- Experiment with **alternative models** for comparison.Random Forest is a strong alternative to deep learning for this problem, offering better interpretability and strong performance on structured data. It should be considered for further analysis, along with XGBoost, to determine the best model for predicting Alphabet Soup’s funding success.
 - Utilize **hyperparameter tuning** with Keras Tuner for further improvements.
 
 The deep learning model successfully predicts the success of Alphabet Soup-funded organizations and meets the desired accuracy goal.
