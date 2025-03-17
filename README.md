@@ -32,29 +32,32 @@ The goal of this analysis is to develop a binary classification model predicting
   - Loss: 0.5583  
   - Accuracy: 71.91%
   - Below the target accuracy of 75%.
+![Description of Image](Images/IMAGE1.png)
 
 ### Second Attempt:
 - **Model Configuration:** Increased the number of units in each layer.
 - **Evaluation Result:**
   - Loss: 0.5586
   - Accuracy: 72.38%
-
+  - 
+![Description of Image2](Images/image2.png)
 ### Third Attempt:
 - **Model Configuration:** Increased units further and changed activation function to `tanh`.
 - **Evaluation Result:**
   - Loss: 0.5608
   - Accuracy: 72.45%
-
+  - 
+![Description of Image3](Images/image3.png)
 ### Fourth Attempt:
 - **Model Configuration:** Added a third hidden layer with increased units.
 - **Evaluation Result:**
   - Loss: 0.5750
   - Accuracy: 72.78%
-
+  - 
+![Description of Image4](Images/image4.png)
 ### Keras Tuner Experiment:
 - **Hyperparameter tuning with Keras Tuner** resulted in an accuracy of only **72%**, suggesting further manual tuning was necessary.
 
----
 
 ## Optimization Attempts
 ### Optimization Attempt 1:
@@ -63,7 +66,8 @@ The goal of this analysis is to develop a binary classification model predicting
   - Loss: 0.4930
   - Accuracy: **75.52%**
   - Exceeded the target accuracy of 75%.
-
+  - 
+![Description of Image5](Images/image5.png)
 ### Optimization Attempt 2:
 - **Model Configuration:** Adjusted the `NAME` count threshold to 100.
 - **Evaluation Result:**
@@ -78,7 +82,7 @@ The goal of this analysis is to develop a binary classification model predicting
   - Accuracy: **75.54%**
   - Confirmed that the `NAME` feature contributed positively.
 
----
+---![Description of Image6](Images/image6.png)
 
 ## Summary and Recommendations
 The final optimized model achieved an accuracy of **75.54%**, surpassing the target. The inclusion of the `NAME` count feature significantly improved performance. The best results came from a model with **two hidden layers, increased units, and refined features**.
