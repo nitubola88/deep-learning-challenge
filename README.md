@@ -39,21 +39,21 @@ The goal of this analysis is to develop a binary classification model predicting
 - **Evaluation Result:**
   - Loss: 0.5586
   - Accuracy: 72.38%
-  - 
+    
 ![Description of Image2](Images/image2.png)
 ### Third Attempt:
 - **Model Configuration:** Increased units further and changed activation function to `tanh`.
 - **Evaluation Result:**
   - Loss: 0.5608
   - Accuracy: 72.45%
-  - 
+    
 ![Description of Image3](Images/image3.png)
 ### Fourth Attempt:
 - **Model Configuration:** Added a third hidden layer with increased units.
 - **Evaluation Result:**
   - Loss: 0.5750
   - Accuracy: 72.78%
-  - 
+    
 ![Description of Image4](Images/image4.png)
 ### Keras Tuner Experiment:
 - **Hyperparameter tuning with Keras Tuner** resulted in an accuracy of only **72%**, suggesting further manual tuning was necessary.
@@ -66,7 +66,7 @@ The goal of this analysis is to develop a binary classification model predicting
   - Loss: 0.4930
   - Accuracy: **75.52%**
   - Exceeded the target accuracy of 75%.
-  - 
+    
 ![Description of Image5](Images/image5.png)
 ### Optimization Attempt 2:
 - **Model Configuration:** Adjusted the `NAME` count threshold to 100.
